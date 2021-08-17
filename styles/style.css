@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -12,7 +12,7 @@
 
 @font-face {
   src: url(../fonts/DINNextW1G.otf);
-  font-family: " DINNextW1G";
+  font-family: "DINNextW1G";
 }
 
 @font-face {
@@ -50,14 +50,14 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .nav-items {
@@ -65,11 +65,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .game-info {
@@ -100,18 +100,18 @@
   width: 160px;
   height: 160px;
   -webkit-transform: scale(0.3);
-          transform: scale(0.3);
+  transform: scale(0.3);
   top: -50px;
   left: -50px;
-  background: url(/assets/long-logo.png) 0 -2400px no-repeat;
+  background: url(../assets/long-logo.png) 0 -2400px no-repeat;
   -webkit-transition-property: background-position;
   transition-property: background-position;
   -webkit-transition-duration: 0.25s;
-          transition-duration: 0.25s;
+  transition-duration: 0.25s;
   -webkit-transition-timing-function: steps(15);
-          transition-timing-function: steps(15);
+  transition-timing-function: steps(15);
   -webkit-transition-delay: 0s;
-          transition-delay: 0s;
+  transition-delay: 0s;
 }
 
 .riot-logo:hover {
@@ -123,11 +123,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 0.8rem;
 }
 
@@ -154,11 +154,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   height: 4rem;
   font-size: 0.7rem;
@@ -187,11 +187,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   padding: 0rem 2rem;
   background: #ff4655;
@@ -211,12 +211,12 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .hambuger-icon span {
@@ -231,11 +231,11 @@
   width: 100%;
   display: none;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .tablet-nav-items .logo-cover {
@@ -244,11 +244,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .hambuger-icon {
@@ -276,18 +276,18 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .main-video {
   position: relative;
   width: 100vw;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 99%, 3% 100%, 0 95%);
-          clip-path: polygon(0 0, 100% 0, 100% 99%, 3% 100%, 0 95%);
+  clip-path: polygon(0 0, 100% 0, 100% 99%, 3% 100%, 0 95%);
   overflow: hidden;
 }
 
@@ -300,15 +300,15 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-family: DINNextW1G;
   color: white;
   position: absolute;
@@ -383,11 +383,11 @@
   left: -75%;
   top: 0;
   -webkit-transform: skew(115deg);
-          transform: skew(115deg);
+  transform: skew(115deg);
   -webkit-transition-duration: 0.6s;
-          transition-duration: 0.6s;
+  transition-duration: 0.6s;
   -webkit-transform-origin: bottom left;
-          transform-origin: bottom left;
+  transform-origin: bottom left;
   width: 0;
 }
 
@@ -407,11 +407,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 2rem;
 }
 
@@ -436,8 +436,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   position: relative;
   top: 14rem;
 }
@@ -446,8 +446,8 @@
   cursor: pointer;
   margin: 0.8rem;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .news-card img {
@@ -476,7 +476,8 @@
   font-family: DINnext;
   font-weight: bold;
   color: white;
-  text-shadow: 1px 0px 0 #5a5a5a, -1px -1px 0 #5a5a5a, 1px -1px 0 #5a5a5a, -1px 1px 0 #5a5a5a, 1px 1px 0 #5a5a5a;
+  text-shadow: 1px 0px 0 #5a5a5a, -1px -1px 0 #5a5a5a, 1px -1px 0 #5a5a5a,
+    -1px 1px 0 #5a5a5a, 1px 1px 0 #5a5a5a;
   opacity: 0.1;
 }
 
@@ -494,7 +495,7 @@
 .overlayBox {
   position: absolute;
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-          clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   top: 0px;
   left: 0px;
   background-color: red;
@@ -502,7 +503,7 @@
   height: 100%;
   opacity: 0;
   -webkit-transform: translateX(-30rem);
-          transform: translateX(-30rem);
+  transform: translateX(-30rem);
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   mix-blend-mode: multiply;
@@ -512,9 +513,9 @@
   opacity: 0.6;
   mix-blend-mode: multiply;
   -webkit-transform: translateX(0rem);
-          transform: translateX(0rem);
+  transform: translateX(0rem);
   -webkit-transform: scale(3);
-          transform: scale(3);
+  transform: scale(3);
 }
 
 .card-info {
@@ -609,11 +610,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .middle-heading .heading-text {
@@ -654,8 +655,8 @@
 
 .left-text-container {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   padding: 0 7rem 0 5rem;
 }
 
@@ -683,8 +684,8 @@
 
 .promotional-image {
   -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
+  -ms-flex: 3;
+  flex: 3;
   cursor: pointer;
 }
 
@@ -698,11 +699,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .promotional-image div:nth-child(1) img {
@@ -752,7 +753,14 @@
   background-color: #ff4655;
   height: 5rem;
   width: 18rem;
-  background: -webkit-gradient(linear, right top, left bottom, from(#fff), color-stop(50%, #fff), color-stop(50%, #ff4655));
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left bottom,
+    from(#fff),
+    color-stop(50%, #fff),
+    color-stop(50%, #ff4655)
+  );
   background: linear-gradient(to bottom left, #fff 0%, #fff 50%, #ff4655 50%);
 }
 
@@ -849,11 +857,11 @@
   left: -75%;
   top: 0;
   -webkit-transform: skew(115deg);
-          transform: skew(115deg);
+  transform: skew(115deg);
   -webkit-transition-duration: 0.6s;
-          transition-duration: 0.6s;
+  transition-duration: 0.6s;
   -webkit-transform-origin: bottom left;
-          transform-origin: bottom left;
+  transform-origin: bottom left;
   width: 0;
 }
 
@@ -926,7 +934,13 @@
 .white-map-gradient {
   position: absolute;
   background: white;
-  background: -webkit-gradient(linear, left top, right top, color-stop(25%, white), color-stop(70%, rgba(255, 255, 255, 0.089)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(25%, white),
+    color-stop(70%, rgba(255, 255, 255, 0.089))
+  );
   background: linear-gradient(90deg, white 25%, rgba(255, 255, 255, 0.089) 70%);
   top: 0;
   z-index: 1;
@@ -944,7 +958,7 @@
 
 .map-section-container {
   width: 100%;
-  background: url(/assets/maps-03ebbf2c074f13a65af1dba0c80f767e.png) no-repeat;
+  background: url(../assets/maps-03ebbf2c074f13a65af1dba0c80f767e.png) no-repeat;
   background-size: contain;
   background-position-x: right;
   height: 90vh;
@@ -995,12 +1009,12 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 #footer div:nth-child(1) {
@@ -1042,11 +1056,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .certification div:nth-child(2) {
@@ -1055,12 +1069,12 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 0.9rem;
   font-weight: 400;
   color: white;
@@ -1072,12 +1086,12 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   z-index: 5;
   margin-top: auto;
   height: 100%;
