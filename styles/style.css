@@ -12,7 +12,7 @@
 
 @font-face {
   src: url(../fonts/DINNextW1G.otf);
-  font-family: "DINNextW1G";
+  font-family: " DINNextW1G";
 }
 
 @font-face {
@@ -103,7 +103,7 @@
           transform: scale(0.3);
   top: -50px;
   left: -50px;
-  background: url(../assets/long-logo.png) 0 -2400px no-repeat;
+  background: url(/assets/long-logo.png) 0 -2400px no-repeat;
   -webkit-transition-property: background-position;
   transition-property: background-position;
   -webkit-transition-duration: 0.25s;
@@ -288,6 +288,7 @@
   width: 100vw;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 99%, 3% 100%, 0 95%);
           clip-path: polygon(0 0, 100% 0, 100% 99%, 3% 100%, 0 95%);
+  overflow: hidden;
 }
 
 .main-video video {
@@ -943,7 +944,7 @@
 
 .map-section-container {
   width: 100%;
-  background: url(../assets/maps-03ebbf2c074f13a65af1dba0c80f767e.png) no-repeat;
+  background: url(/assets/maps-03ebbf2c074f13a65af1dba0c80f767e.png) no-repeat;
   background-size: contain;
   background-position-x: right;
   height: 90vh;
